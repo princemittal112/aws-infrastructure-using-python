@@ -20,9 +20,6 @@ def list_s3_buckets():
 # Call the function
 list_s3_buckets()
 
-
-
-
 # create s3 bucket in aws using python -> versioning enabled and sample file uploaded
 def create_bucket():
     s3 = boto3.client('s3')
